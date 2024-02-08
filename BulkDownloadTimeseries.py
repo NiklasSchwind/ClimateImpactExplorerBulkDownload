@@ -15,13 +15,13 @@ For an example on how to fill out the lists see the example.py script
 @param: Scenarios List of the desired Scenarios, only needed if fromat = png or format = pdf, can be rcp26, rcp45, rcp60, rcp85, h_cpol, o_1p5c, d_delfrag, cat_current
 '''
 
-SAVEPATH = ''
-format = ''
-Countries = []
+SAVEPATH = 'C:\Users\BY466QB\Downloads'
+format = 'csv'
+Countries = ['CHN', 'DEU', 'FIN', 'FRA', 'GBR', 'IND', 'JPN', 'SWE', 'TWN', 'USA', 'NVM' ]
 isSubdivisionalLevel = False
-Impacts = []
-SpatialAggregations = []   #Always add 'other' if you selected 'ec2', 'ec3' or 'ec4' as impacts
-Seasons = []
+Impacts = [ec4]
+SpatialAggregations = [other]   #Always add 'other' if you selected 'ec2', 'ec3' or 'ec4' as impacts
+Seasons = [annual]
 Scenarios = [] #can be left empty if format = 'csv'
 
 
